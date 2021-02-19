@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "dist/",
   "projectname": "myApp",
-  "description": "rect demo ",
+  "description": "study wx-project ",
   "appid": "touristappid",
   "setting": {
     "urlCheck": true,
@@ -10,11 +10,11 @@
     "postcss": false,
     "preloadBackgroundData": false,
     "minified": false,
-    "newFeature": false,
+    "newFeature": true,
     "coverView": true,
     "nodeModules": false,
     "autoAudits": false,
-    "showShadowRootInWxmlPanel": true,
+    "showShadowRootInWxmlPanel": false,
     "scopeDataCheck": false,
     "uglifyFileName": false,
     "checkInvalidKey": true,
@@ -32,7 +32,7 @@
     "enableEngineNative": false,
     "bundle": false,
     "useIsolateContext": true,
-    "useCompilerModule": true,
+    "useCompilerModule": false,
     "userConfirmedUseCompilerModuleSwitch": false,
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
@@ -40,5 +40,7 @@
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
   "condition": {}
 }

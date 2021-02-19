@@ -1,6 +1,6 @@
 const config = {
   projectName: 'myApp',
-  date: '2021-2-7',
+  date: '2021-2-19',
   designWidth: 750,
   deviceRatio: {
     640: 2.34 / 2,
