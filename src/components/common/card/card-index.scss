@@ -1,0 +1,21 @@
+// scss 的 mimin 的使用
+@mixin backGroundColor($color: blue) {
+    background-color: $color;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-card-index{
+    background-color: white;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    width: 95%;
+    margin: 0 auto;
+    height: 400px;
+    box-shadow:1px 1px 5px #888888;
+    padding:16px;
+    .my-card-title{
+        text-align: center;
+    }
+}

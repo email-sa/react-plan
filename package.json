@@ -38,13 +38,18 @@
     "@babel/runtime": "^7.7.7",
     "@tarojs/cli": "3.0.26",
     "@tarojs/components": "3.0.26",
+    "@tarojs/react": "3.0.26",
     "@tarojs/runtime": "3.0.26",
     "@tarojs/taro": "3.0.26",
+    "@vant/weapp": "^1.5.3",
     "lodash": "4.17.15",
-    "@tarojs/react": "3.0.26",
+    "prop-types": "^15.7.2",
     "react": "^16.10.0",
     "react-dom": "^16.10.0",
-    "taro-ui": "^3.0.0-alpha.3"
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "taro-ui": "^3.0.0-alpha.10"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
